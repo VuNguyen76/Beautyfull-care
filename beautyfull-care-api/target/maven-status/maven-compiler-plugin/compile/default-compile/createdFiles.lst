@@ -21,6 +21,7 @@ com\beautyfullcare\config\SwaggerConfig.class
 com\beautyfullcare\controller\HomeController.class
 com\beautyfullcare\repository\UserRepository.class
 com\beautyfullcare\entity\User.class
+com\beautyfullcare\config\WebConfig.class
 com\beautyfullcare\controller\AdminController.class
 com\beautyfullcare\repository\ServiceRepository.class
 com\beautyfullcare\repository\BookingRepository.class

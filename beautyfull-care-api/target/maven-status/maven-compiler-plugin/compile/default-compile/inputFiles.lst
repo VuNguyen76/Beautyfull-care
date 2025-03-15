@@ -10,6 +10,7 @@ D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\entity\
 D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\controller\SpecialistController.java
 D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\repository\SpecialistRepository.java
 D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\security\JwtUtil.java
+D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\config\WebConfig.java
 D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\repository\ServiceRepository.java
 D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\service\ServiceService.java
 D:\Beuautyfull-care\beautyfull-care-api\src\main\java\com\beautyfullcare\BeautyfullCareApplication.java

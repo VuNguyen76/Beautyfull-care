@@ -29,21 +29,10 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/auth/**").permitAll()
-                .requestMatchers("/api/home/**").permitAll()
-                .requestMatchers("/api/services").permitAll()
-                .requestMatchers("/swagger-ui/**", "/swagger-ui.html", "/v3/api-docs/**", "/swagger-resources/**",
-                        "/webjars/**")
-                .permitAll()
-                .requestMatchers("/api/customers/**").hasAnyRole("CUSTOMER", "ADMIN")
-                .requestMatchers("/api/staff/**").hasRole("STAFF")
-                .requestMatchers("/api/admin/**").hasRole("ADMIN")
-                .anyRequest().authenticated()
+                .anyRequest().permitAll()
                 .and()
                 .sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-                .and()
-                .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+                .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
         return http.build();
     }
